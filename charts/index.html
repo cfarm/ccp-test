@@ -31,11 +31,11 @@
     ======
     The number of stylesheets here must be kept to a minimum.
     Unless adding a significant amount of CSS that is specific to a single page
-    or section of the site, all new styles should be added to srcstatic/css/app.less.
+    or section of the site, all new styles should be added to src/static/css/app.less.
 -->
 
-<!--[if lt IE 9]>      <link rel="stylesheet" href="static/css/main.ie.min.css"> <![endif]-->
-<!--[if gt IE 8]><!--> <link rel="stylesheet" href="static/css/main.min.css"> <!--<![endif]-->
+<!--[if lt IE 9]>      <link rel="stylesheet" href="../static/css/main.ie.min.css"> <![endif]-->
+<!--[if gt IE 8]><!--> <link rel="stylesheet" href="../static/css/main.min.css"> <!--<![endif]-->
 
 <!--
     ============
@@ -48,7 +48,7 @@
 -->
 
 <!--[if lt IE 9]>
-    <script src="static/vendor/html5shiv/html5shiv-printshiv.min.js"></script>
+    <script src="../static/vendor/html5shiv/html5shiv-printshiv.min.js"></script>
 <![endif]-->
 
     <script>
@@ -94,6 +94,21 @@
     <li><a href="../charts/auto-loans/borrower-age/figure-4a__30-to-44.html">figure-4a__30-to-44</a></li>
     <li><a href="../charts/auto-loans/borrower-age/figure-4a__45-to-64.html">figure-4a__45-to-64</a></li>
     <li><a href="../charts/auto-loans/borrower-age/figure-4a__65-and-older.html">figure-4a__65-and-older</a></li>
+    <li><a href="../charts/credit-cards/origination-activity/figure-1a__number__credit-cards.html">figure-1a__number__credit-cards</a></li>
+    <li><a href="../charts/credit-cards/origination-activity/figure-1a__volume__credit-cards.html">figure-1a__volume__credit-cards</a></li>
+    <li><a href="../charts/credit-cards/borrower-risk-profiles/figure-2a__deep-subprime__credit-cards.html">figure-2a__deep-subprime__credit-cards</a></li>
+    <li><a href="../charts/credit-cards/borrower-risk-profiles/figure-2a__subprime__credit-cards.html">figure-2a__subprime__credit-cards</a></li>
+    <li><a href="../charts/credit-cards/borrower-risk-profiles/figure-2a__near-prime__credit-cards.html">figure-2a__near-prime__credit-cards</a></li>
+    <li><a href="../charts/credit-cards/borrower-risk-profiles/figure-2a__prime__credit-cards.html">figure-2a__prime__credit-cards</a></li>
+    <li><a href="../charts/credit-cards/borrower-risk-profiles/figure-2a__superprime__credit-cards.html">figure-2a__superprime__credit-cards</a></li>
+    <li><a href="../charts/credit-cards/income-level/figure-3a__low__credit-cards.html">figure-3a__low__credit-cards</a></li>
+    <li><a href="../charts/credit-cards/income-level/figure-3a__moderate__credit-cards.html">figure-3a__moderate__credit-cards</a></li>
+    <li><a href="../charts/credit-cards/income-level/figure-3a__middle__credit-cards.html">figure-3a__middle__credit-cards</a></li>
+    <li><a href="../charts/credit-cards/income-level/figure-3a__high__credit-cards.html">figure-3a__high__credit-cards</a></li>
+    <li><a href="../charts/credit-cards/borrower-age/figure-4a__younger-than-30__credit-cards.html">figure-4a__younger-than-30__credit-cards</a></li>
+    <li><a href="../charts/credit-cards/borrower-age/figure-4a__30-to-44__credit-cards.html">figure-4a__30-to-44__credit-cards</a></li>
+    <li><a href="../charts/credit-cards/borrower-age/figure-4a__45-to-64__credit-cards.html">figure-4a__45-to-64__credit-cards</a></li>
+    <li><a href="../charts/credit-cards/borrower-age/figure-4a__65-and-older__credit-cards.html">figure-4a__65-and-older__credit-cards</a></li>
 </ol>
 
 <div style="border: 4px solid gray">
@@ -108,7 +123,7 @@
     data-report-type="origination-activity"
 >
 <!-- build:css -->
-<link rel="stylesheet" href="static/css/charts.min.css">
+<link rel="stylesheet" href="../static/css/charts.min.css">
 <!-- endbuild -->
 
     <h3>Number of loans originated</h3>
@@ -137,7 +152,7 @@
     data-report-type="origination-activity"
 >
 <!-- build:css -->
-<link rel="stylesheet" href="static/css/charts.min.css">
+<link rel="stylesheet" href="../static/css/charts.min.css">
 <!-- endbuild -->
 
     <h3>Volume of loans originated</h3>
@@ -166,7 +181,7 @@
     data-report-type="borrower-risk-profiles"
 >
 <!-- build:css -->
-<link rel="stylesheet" href="static/css/charts.min.css">
+<link rel="stylesheet" href="../static/css/charts.min.css">
 <!-- endbuild -->
 
     <h3>Deep subprime (credit scores below 580)</h3>
@@ -195,7 +210,7 @@
     data-report-type="borrower-risk-profiles"
 >
 <!-- build:css -->
-<link rel="stylesheet" href="static/css/charts.min.css">
+<link rel="stylesheet" href="../static/css/charts.min.css">
 <!-- endbuild -->
 
     <h3>Subprime (credit scores 580 - 619)</h3>
@@ -224,7 +239,7 @@
     data-report-type="borrower-risk-profiles"
 >
 <!-- build:css -->
-<link rel="stylesheet" href="static/css/charts.min.css">
+<link rel="stylesheet" href="../static/css/charts.min.css">
 <!-- endbuild -->
 
     <h3>Near prime (credit scores 620 - 679)</h3>
@@ -253,7 +268,7 @@
     data-report-type="borrower-risk-profiles"
 >
 <!-- build:css -->
-<link rel="stylesheet" href="static/css/charts.min.css">
+<link rel="stylesheet" href="../static/css/charts.min.css">
 <!-- endbuild -->
 
     <h3>Prime (credit scores 680 - 719)</h3>
@@ -282,7 +297,7 @@
     data-report-type="borrower-risk-profiles"
 >
 <!-- build:css -->
-<link rel="stylesheet" href="static/css/charts.min.css">
+<link rel="stylesheet" href="../static/css/charts.min.css">
 <!-- endbuild -->
 
     <h3>Superprime (credit scores 720 and above)</h3>
@@ -311,7 +326,7 @@
     data-report-type="income-level"
 >
 <!-- build:css -->
-<link rel="stylesheet" href="static/css/charts.min.css">
+<link rel="stylesheet" href="../static/css/charts.min.css">
 <!-- endbuild -->
 
     <h3>Low income (relative income less than 50%)</h3>
@@ -340,7 +355,7 @@
     data-report-type="income-level"
 >
 <!-- build:css -->
-<link rel="stylesheet" href="static/css/charts.min.css">
+<link rel="stylesheet" href="../static/css/charts.min.css">
 <!-- endbuild -->
 
     <h3>Moderate income (relative income 50 to 79%)</h3>
@@ -369,7 +384,7 @@
     data-report-type="income-level"
 >
 <!-- build:css -->
-<link rel="stylesheet" href="static/css/charts.min.css">
+<link rel="stylesheet" href="../static/css/charts.min.css">
 <!-- endbuild -->
 
     <h3>Middle income (relative income 80 to 119%)</h3>
@@ -398,7 +413,7 @@
     data-report-type="income-level"
 >
 <!-- build:css -->
-<link rel="stylesheet" href="static/css/charts.min.css">
+<link rel="stylesheet" href="../static/css/charts.min.css">
 <!-- endbuild -->
 
     <h3>High income (relative income 120% or above)</h3>
@@ -427,7 +442,7 @@
     data-report-type="borrower-age"
 >
 <!-- build:css -->
-<link rel="stylesheet" href="static/css/charts.min.css">
+<link rel="stylesheet" href="../static/css/charts.min.css">
 <!-- endbuild -->
 
     <h3>Younger than 30</h3>
@@ -456,7 +471,7 @@
     data-report-type="borrower-age"
 >
 <!-- build:css -->
-<link rel="stylesheet" href="static/css/charts.min.css">
+<link rel="stylesheet" href="../static/css/charts.min.css">
 <!-- endbuild -->
 
     <h3>Age 30 to 44</h3>
@@ -485,7 +500,7 @@
     data-report-type="borrower-age"
 >
 <!-- build:css -->
-<link rel="stylesheet" href="static/css/charts.min.css">
+<link rel="stylesheet" href="../static/css/charts.min.css">
 <!-- endbuild -->
 
     <h3>Age 45 to 64</h3>
@@ -514,7 +529,7 @@
     data-report-type="borrower-age"
 >
 <!-- build:css -->
-<link rel="stylesheet" href="static/css/charts.min.css">
+<link rel="stylesheet" href="../static/css/charts.min.css">
 <!-- endbuild -->
 
     <h3>Age 65 and older</h3>
@@ -523,6 +538,441 @@
 <p class="block short-desc">
 
     <strong>Source:</strong> <a href="https://raw.githubusercontent.com/cfpb/consumer-credit-trends/master/data/volume_data_Age_Group_AUT.csv">https://raw.githubusercontent.com/cfpb/consumer-credit-trends/master/data/volume_data_Age_Group_AUT.csv</a><br>
+    <strong>Date published:</strong> month year<br>
+    <strong>Note:</strong> Data from the last 6 months is not final.
+
+</p>
+
+
+
+</div>
+<div style="border: 4px solid gray">
+<h4>credit-cards, origination-activity, line</h4>
+<h5>figure-1a</h5>
+<div class="chart_wrapper"
+    id="figure-1a__number__credit-cards"
+    data-chart-type="line" 
+    data-source="num_data_CRC.csv" 
+    data-title="Number of loans originated" 
+    data-market="credit-cards"
+    data-report-type="origination-activity"
+>
+<!-- build:css -->
+<link rel="stylesheet" href="../static/css/charts.min.css">
+<!-- endbuild -->
+
+    <h3>Number of loans originated</h3>
+</div>
+    
+<p class="block short-desc">
+
+    <strong>Source:</strong> <a href="https://raw.githubusercontent.com/cfpb/consumer-credit-trends/master/data/num_data_CRC.csv">https://raw.githubusercontent.com/cfpb/consumer-credit-trends/master/data/num_data_CRC.csv</a><br>
+    <strong>Date published:</strong> month year<br>
+    <strong>Note:</strong> Data from the last 6 months is not final.
+
+</p>
+
+
+
+</div>
+<div style="border: 4px solid gray">
+<h4>credit-cards, origination-activity, line</h4>
+<h5>figure-1a</h5>
+<div class="chart_wrapper"
+    id="figure-1a__volume__credit-cards"
+    data-chart-type="line" 
+    data-source="vol_data_CRC.csv" 
+    data-title="Volume of loans originated" 
+    data-market="credit-cards"
+    data-report-type="origination-activity"
+>
+<!-- build:css -->
+<link rel="stylesheet" href="../static/css/charts.min.css">
+<!-- endbuild -->
+
+    <h3>Volume of loans originated</h3>
+</div>
+    
+<p class="block short-desc">
+
+    <strong>Source:</strong> <a href="https://raw.githubusercontent.com/cfpb/consumer-credit-trends/master/data/vol_data_CRC.csv">https://raw.githubusercontent.com/cfpb/consumer-credit-trends/master/data/vol_data_CRC.csv</a><br>
+    <strong>Date published:</strong> month year<br>
+    <strong>Note:</strong> Data from the last 6 months is not final.
+
+</p>
+
+
+
+</div>
+<div style="border: 4px solid gray">
+<h4>credit-cards, borrower-risk-profiles, line</h4>
+<h5>figure-2a</h5>
+<div class="chart_wrapper"
+    id="figure-2a__deep-subprime__credit-cards"
+    data-chart-type="line" 
+    data-source="volume_data_Score_Level_CRC.csv" 
+    data-title="Deep subprime (credit scores below 580)" 
+    data-market="credit-cards"
+    data-report-type="borrower-risk-profiles"
+>
+<!-- build:css -->
+<link rel="stylesheet" href="../static/css/charts.min.css">
+<!-- endbuild -->
+
+    <h3>Deep subprime (credit scores below 580)</h3>
+</div>
+    
+<p class="block short-desc">
+
+    <strong>Source:</strong> <a href="https://raw.githubusercontent.com/cfpb/consumer-credit-trends/master/data/volume_data_Score_Level_CRC.csv">https://raw.githubusercontent.com/cfpb/consumer-credit-trends/master/data/volume_data_Score_Level_CRC.csv</a><br>
+    <strong>Date published:</strong> month year<br>
+    <strong>Note:</strong> Data from the last 6 months is not final.
+
+</p>
+
+
+
+</div>
+<div style="border: 4px solid gray">
+<h4>credit-cards, borrower-risk-profiles, line</h4>
+<h5>figure-2a</h5>
+<div class="chart_wrapper"
+    id="figure-2a__subprime__credit-cards"
+    data-chart-type="line" 
+    data-source="volume_data_Score_Level_CRC.csv" 
+    data-title="Subprime (credit scores 580 - 619)" 
+    data-market="credit-cards"
+    data-report-type="borrower-risk-profiles"
+>
+<!-- build:css -->
+<link rel="stylesheet" href="../static/css/charts.min.css">
+<!-- endbuild -->
+
+    <h3>Subprime (credit scores 580 - 619)</h3>
+</div>
+    
+<p class="block short-desc">
+
+    <strong>Source:</strong> <a href="https://raw.githubusercontent.com/cfpb/consumer-credit-trends/master/data/volume_data_Score_Level_CRC.csv">https://raw.githubusercontent.com/cfpb/consumer-credit-trends/master/data/volume_data_Score_Level_CRC.csv</a><br>
+    <strong>Date published:</strong> month year<br>
+    <strong>Note:</strong> Data from the last 6 months is not final.
+
+</p>
+
+
+
+</div>
+<div style="border: 4px solid gray">
+<h4>credit-cards, borrower-risk-profiles, line</h4>
+<h5>figure-2a</h5>
+<div class="chart_wrapper"
+    id="figure-2a__near-prime__credit-cards"
+    data-chart-type="line" 
+    data-source="volume_data_Score_Level_CRC.csv" 
+    data-title="Near prime (credit scores 620 - 679)" 
+    data-market="credit-cards"
+    data-report-type="borrower-risk-profiles"
+>
+<!-- build:css -->
+<link rel="stylesheet" href="../static/css/charts.min.css">
+<!-- endbuild -->
+
+    <h3>Near prime (credit scores 620 - 679)</h3>
+</div>
+    
+<p class="block short-desc">
+
+    <strong>Source:</strong> <a href="https://raw.githubusercontent.com/cfpb/consumer-credit-trends/master/data/volume_data_Score_Level_CRC.csv">https://raw.githubusercontent.com/cfpb/consumer-credit-trends/master/data/volume_data_Score_Level_CRC.csv</a><br>
+    <strong>Date published:</strong> month year<br>
+    <strong>Note:</strong> Data from the last 6 months is not final.
+
+</p>
+
+
+
+</div>
+<div style="border: 4px solid gray">
+<h4>credit-cards, borrower-risk-profiles, line</h4>
+<h5>figure-2a</h5>
+<div class="chart_wrapper"
+    id="figure-2a__prime__credit-cards"
+    data-chart-type="line" 
+    data-source="volume_data_Score_Level_CRC.csv" 
+    data-title="Prime (credit scores 680 - 719)" 
+    data-market="credit-cards"
+    data-report-type="borrower-risk-profiles"
+>
+<!-- build:css -->
+<link rel="stylesheet" href="../static/css/charts.min.css">
+<!-- endbuild -->
+
+    <h3>Prime (credit scores 680 - 719)</h3>
+</div>
+    
+<p class="block short-desc">
+
+    <strong>Source:</strong> <a href="https://raw.githubusercontent.com/cfpb/consumer-credit-trends/master/data/volume_data_Score_Level_CRC.csv">https://raw.githubusercontent.com/cfpb/consumer-credit-trends/master/data/volume_data_Score_Level_CRC.csv</a><br>
+    <strong>Date published:</strong> month year<br>
+    <strong>Note:</strong> Data from the last 6 months is not final.
+
+</p>
+
+
+
+</div>
+<div style="border: 4px solid gray">
+<h4>credit-cards, borrower-risk-profiles, line</h4>
+<h5>figure-2a</h5>
+<div class="chart_wrapper"
+    id="figure-2a__superprime__credit-cards"
+    data-chart-type="line" 
+    data-source="volume_data_Score_Level_CRC.csv" 
+    data-title="Superprime (credit scores 720 and above)" 
+    data-market="credit-cards"
+    data-report-type="borrower-risk-profiles"
+>
+<!-- build:css -->
+<link rel="stylesheet" href="../static/css/charts.min.css">
+<!-- endbuild -->
+
+    <h3>Superprime (credit scores 720 and above)</h3>
+</div>
+    
+<p class="block short-desc">
+
+    <strong>Source:</strong> <a href="https://raw.githubusercontent.com/cfpb/consumer-credit-trends/master/data/volume_data_Score_Level_CRC.csv">https://raw.githubusercontent.com/cfpb/consumer-credit-trends/master/data/volume_data_Score_Level_CRC.csv</a><br>
+    <strong>Date published:</strong> month year<br>
+    <strong>Note:</strong> Data from the last 6 months is not final.
+
+</p>
+
+
+
+</div>
+<div style="border: 4px solid gray">
+<h4>credit-cards, income-level, line</h4>
+<h5>figure-3a</h5>
+<div class="chart_wrapper"
+    id="figure-3a__low__credit-cards"
+    data-chart-type="line" 
+    data-source="volume_data_Income_Level_CRC.csv" 
+    data-title="Low income (relative income less than 50%)" 
+    data-market="credit-cards"
+    data-report-type="income-level"
+>
+<!-- build:css -->
+<link rel="stylesheet" href="../static/css/charts.min.css">
+<!-- endbuild -->
+
+    <h3>Low income (relative income less than 50%)</h3>
+</div>
+    
+<p class="block short-desc">
+
+    <strong>Source:</strong> <a href="https://raw.githubusercontent.com/cfpb/consumer-credit-trends/master/data/volume_data_Income_Level_CRC.csv">https://raw.githubusercontent.com/cfpb/consumer-credit-trends/master/data/volume_data_Income_Level_CRC.csv</a><br>
+    <strong>Date published:</strong> month year<br>
+    <strong>Note:</strong> Data from the last 6 months is not final.
+
+</p>
+
+
+
+</div>
+<div style="border: 4px solid gray">
+<h4>credit-cards, income-level, line</h4>
+<h5>figure-3a</h5>
+<div class="chart_wrapper"
+    id="figure-3a__moderate__credit-cards"
+    data-chart-type="line" 
+    data-source="volume_data_Income_Level_CRC.csv" 
+    data-title="Moderate income (relative income 50 to 79%)" 
+    data-market="credit-cards"
+    data-report-type="income-level"
+>
+<!-- build:css -->
+<link rel="stylesheet" href="../static/css/charts.min.css">
+<!-- endbuild -->
+
+    <h3>Moderate income (relative income 50 to 79%)</h3>
+</div>
+    
+<p class="block short-desc">
+
+    <strong>Source:</strong> <a href="https://raw.githubusercontent.com/cfpb/consumer-credit-trends/master/data/volume_data_Income_Level_CRC.csv">https://raw.githubusercontent.com/cfpb/consumer-credit-trends/master/data/volume_data_Income_Level_CRC.csv</a><br>
+    <strong>Date published:</strong> month year<br>
+    <strong>Note:</strong> Data from the last 6 months is not final.
+
+</p>
+
+
+
+</div>
+<div style="border: 4px solid gray">
+<h4>credit-cards, income-level, line</h4>
+<h5>figure-3a</h5>
+<div class="chart_wrapper"
+    id="figure-3a__middle__credit-cards"
+    data-chart-type="line" 
+    data-source="volume_data_Income_Level_CRC.csv" 
+    data-title="Middle income (relative income 80 to 119%)" 
+    data-market="credit-cards"
+    data-report-type="income-level"
+>
+<!-- build:css -->
+<link rel="stylesheet" href="../static/css/charts.min.css">
+<!-- endbuild -->
+
+    <h3>Middle income (relative income 80 to 119%)</h3>
+</div>
+    
+<p class="block short-desc">
+
+    <strong>Source:</strong> <a href="https://raw.githubusercontent.com/cfpb/consumer-credit-trends/master/data/volume_data_Income_Level_CRC.csv">https://raw.githubusercontent.com/cfpb/consumer-credit-trends/master/data/volume_data_Income_Level_CRC.csv</a><br>
+    <strong>Date published:</strong> month year<br>
+    <strong>Note:</strong> Data from the last 6 months is not final.
+
+</p>
+
+
+
+</div>
+<div style="border: 4px solid gray">
+<h4>credit-cards, income-level, line</h4>
+<h5>figure-3a</h5>
+<div class="chart_wrapper"
+    id="figure-3a__high__credit-cards"
+    data-chart-type="line" 
+    data-source="volume_data_Income_Level_CRC.csv" 
+    data-title="High income (relative income 120% or above)" 
+    data-market="credit-cards"
+    data-report-type="income-level"
+>
+<!-- build:css -->
+<link rel="stylesheet" href="../static/css/charts.min.css">
+<!-- endbuild -->
+
+    <h3>High income (relative income 120% or above)</h3>
+</div>
+    
+<p class="block short-desc">
+
+    <strong>Source:</strong> <a href="https://raw.githubusercontent.com/cfpb/consumer-credit-trends/master/data/volume_data_Income_Level_CRC.csv">https://raw.githubusercontent.com/cfpb/consumer-credit-trends/master/data/volume_data_Income_Level_CRC.csv</a><br>
+    <strong>Date published:</strong> month year<br>
+    <strong>Note:</strong> Data from the last 6 months is not final.
+
+</p>
+
+
+
+</div>
+<div style="border: 4px solid gray">
+<h4>credit-cards, borrower-age, line</h4>
+<h5>figure-4a</h5>
+<div class="chart_wrapper"
+    id="figure-4a__younger-than-30__credit-cards"
+    data-chart-type="line" 
+    data-source="volume_data_Age_Group_CRC.csv" 
+    data-title="Younger than 30" 
+    data-market="credit-cards"
+    data-report-type="borrower-age"
+>
+<!-- build:css -->
+<link rel="stylesheet" href="../static/css/charts.min.css">
+<!-- endbuild -->
+
+    <h3>Younger than 30</h3>
+</div>
+    
+<p class="block short-desc">
+
+    <strong>Source:</strong> <a href="https://raw.githubusercontent.com/cfpb/consumer-credit-trends/master/data/volume_data_Age_Group_CRC.csv">https://raw.githubusercontent.com/cfpb/consumer-credit-trends/master/data/volume_data_Age_Group_CRC.csv</a><br>
+    <strong>Date published:</strong> month year<br>
+    <strong>Note:</strong> Data from the last 6 months is not final.
+
+</p>
+
+
+
+</div>
+<div style="border: 4px solid gray">
+<h4>credit-cards, borrower-age, line</h4>
+<h5>figure-4a</h5>
+<div class="chart_wrapper"
+    id="figure-4a__30-to-44__credit-cards"
+    data-chart-type="line" 
+    data-source="volume_data_Age_Group_CRC.csv" 
+    data-title="Age 30 to 44" 
+    data-market="credit-cards"
+    data-report-type="borrower-age"
+>
+<!-- build:css -->
+<link rel="stylesheet" href="../static/css/charts.min.css">
+<!-- endbuild -->
+
+    <h3>Age 30 to 44</h3>
+</div>
+    
+<p class="block short-desc">
+
+    <strong>Source:</strong> <a href="https://raw.githubusercontent.com/cfpb/consumer-credit-trends/master/data/volume_data_Age_Group_CRC.csv">https://raw.githubusercontent.com/cfpb/consumer-credit-trends/master/data/volume_data_Age_Group_CRC.csv</a><br>
+    <strong>Date published:</strong> month year<br>
+    <strong>Note:</strong> Data from the last 6 months is not final.
+
+</p>
+
+
+
+</div>
+<div style="border: 4px solid gray">
+<h4>credit-cards, borrower-age, line</h4>
+<h5>figure-4a</h5>
+<div class="chart_wrapper"
+    id="figure-4a__45-to-64__credit-cards"
+    data-chart-type="line" 
+    data-source="volume_data_Age_Group_CRC.csv" 
+    data-title="Age 45 to 64" 
+    data-market="credit-cards"
+    data-report-type="borrower-age"
+>
+<!-- build:css -->
+<link rel="stylesheet" href="../static/css/charts.min.css">
+<!-- endbuild -->
+
+    <h3>Age 45 to 64</h3>
+</div>
+    
+<p class="block short-desc">
+
+    <strong>Source:</strong> <a href="https://raw.githubusercontent.com/cfpb/consumer-credit-trends/master/data/volume_data_Age_Group_CRC.csv">https://raw.githubusercontent.com/cfpb/consumer-credit-trends/master/data/volume_data_Age_Group_CRC.csv</a><br>
+    <strong>Date published:</strong> month year<br>
+    <strong>Note:</strong> Data from the last 6 months is not final.
+
+</p>
+
+
+
+</div>
+<div style="border: 4px solid gray">
+<h4>credit-cards, borrower-age, line</h4>
+<h5>figure-4a</h5>
+<div class="chart_wrapper"
+    id="figure-4a__65-and-older__credit-cards"
+    data-chart-type="line" 
+    data-source="volume_data_Age_Group_CRC.csv" 
+    data-title="Age 65 and older" 
+    data-market="credit-cards"
+    data-report-type="borrower-age"
+>
+<!-- build:css -->
+<link rel="stylesheet" href="../static/css/charts.min.css">
+<!-- endbuild -->
+
+    <h3>Age 65 and older</h3>
+</div>
+    
+<p class="block short-desc">
+
+    <strong>Source:</strong> <a href="https://raw.githubusercontent.com/cfpb/consumer-credit-trends/master/data/volume_data_Age_Group_CRC.csv">https://raw.githubusercontent.com/cfpb/consumer-credit-trends/master/data/volume_data_Age_Group_CRC.csv</a><br>
     <strong>Date published:</strong> month year<br>
     <strong>Note:</strong> Data from the last 6 months is not final.
 
@@ -547,9 +997,9 @@
     ============
     The number of scripts here must be kept to a minimum.
     Unless adding a significant amount of JS that is specific to a single page
-    or section of the site, all custom JS should be added to srcstatic/js/app.js.
+    or section of the site, all custom JS should be added to src/static/js/app.js.
 -->
 
-<script src="static/js/main.min.js"></script>
+<script src="../static/js/main.min.js"></script>
 
 </body>
