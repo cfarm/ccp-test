@@ -34,11 +34,11 @@ function makeDataIntoBarCharts( chartInfo ) {
     var data = rawData;
 
     var defaultOpts = {
-      baseWidth: 770,
+      baseWidth: 650,
       baseHeight: 500,
       paddingDecimal: .1,
       margin: {
-        top: 85, right: 20, bottom: 30, left: 75
+        top: 85, right: 20, bottom: 50, left: 75
       }
     }
 
@@ -87,7 +87,7 @@ function reformatBarData( rawData ) {
     }; 
 
     // add data if it's 2009 or after
-    if ( parseTime( obj.label ) >= parseTime( '2009-0-01') ) {
+    if ( parseTime( obj.label ) >= parseTime( '2009-01-01') ) {
       data.push( obj );
     }
 
@@ -116,11 +116,11 @@ function addProjectedToBar( svg, options ) {
     .attr( 'class', 'bar__projected' );
 
   var line = svg.chart.append( 'line' )
-        .style( 'stroke', ' #919395' )
         .attr( 'x1', x )
         .attr( 'x2', x )
         .attr( 'y1', -30 )
-        .attr( 'y2', height );
+        .attr( 'y2', height )
+        .classed( 'axis__projected', true);
 
   svg.chart.append( 'text' )
       .attr('x', x )

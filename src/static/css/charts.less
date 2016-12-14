@@ -11,20 +11,6 @@
 
 .chart_wrapper {
 
-    .chart {
-          text.gray-text {
-            fill: @gray-80;
-          }
-
-          text.y-axis-label {
-            fill: @gray-80;
-          }
-    }
-
-    .chart__line {
-
-    }
-
     .line {
       fill: none;
       stroke: @gray-80;
@@ -59,15 +45,8 @@
     }
 
     .axis__projected {
-        .tick {
-            line {
-                stroke-width: 2px;
-                stroke: @gray-80;
-            }
-            text {
-                fill: @gray-80;
-            }
-        }
+        stroke-width: 2px;
+        stroke: @gray-80;
     }
 
     .tick {
@@ -100,8 +79,30 @@
         .webfont-demi();
     }
 
+    text.gray-text {
+        fill: @gray-80;
+    }
+    
+    text.y-axis-label {
+        fill: @gray-80;
+    }
+
     .axis path.domain {
       display: none;
+    }
+
+    [data-chart-type="map"] {
+        .legend {
+            transform: translate(30px, 0);
+            text {
+                &:first-of-type {
+                    transform: translate(-13px, 0);
+                }
+                &:last-of-type {
+                    transform: translate(20px, 0);
+                }
+            }
+        }
     }
 
     // Line and bar colors for each type of report
