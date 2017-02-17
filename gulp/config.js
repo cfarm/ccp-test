@@ -64,7 +64,7 @@ module.exports = {
   },
   scripts: {
     src: [
-      loc.src + '/static/js/metadata.js',
+      // loc.src + '/static/js/metadata.js',
       loc.src + '/static/js/bar.js',
       loc.src + '/static/js/tile-map.js',
       loc.src + '/static/js/formatDates.js',
@@ -92,7 +92,9 @@ module.exports = {
     release: {
       src: loc.dev + '/**/*.html',
       destFiles: loc.prod + '/charts/**/*.html',
-      dest: loc.prod
+      dest: loc.prod,
+      static: loc.dev + '/static/**',
+      staticDest: loc.prod + '/static'
     },
     files: {
       src: [
